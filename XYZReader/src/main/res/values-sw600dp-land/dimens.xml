@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="detail_app_bar_layout_height">500dp</dimen>
+
+    <dimen name="article_title_text_size">20sp</dimen>
+    <dimen name="article_subtitle_text_size">16sp</dimen>
+    <dimen name="card_item_horizontal_margin">14dp</dimen>
+    <dimen name="list_horizontal_margin">35dp</dimen>
+    <dimen name="image_logo_padding_left">210dp</dimen>
+</resources>

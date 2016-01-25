@@ -1,0 +1,66 @@
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <!--style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="Theme.Bacon.Detail">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+    </style-->
+
+
+    <style name="AppTheme" parent="BaseTheme">
+        <item name="colorPrimary">@color/theme_primary</item>
+        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
+        <item name="colorAccent">@color/theme_accent</item>
+        <item name="android:textColorPrimary">@color/theme_primary_text_color</item>
+        <item name="android:textColorSecondary">@color/theme_secondary_text_color</item>
+        <item name="android:textColorPrimaryInverse">@color/theme_text_icons_color</item>
+        <item name="android:fontFamily">sans-serif</item>
+
+    </style>
+
+    <style name="AppTheme.Detail">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/theme_text_icons_color</item>
+    </style>
+
+    <style name="BaseTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <!-- Set proper title size -->
+    <!-- Set title color -->
+    <!--style name="AppTheme.Toolbar.Title" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+
+
+        <item name="android:textSize">@dimen/abc_text_size_title_material_toolbar</item>
+
+        <item name="android:textColor">@color/toolbar_title</item>
+    </style-->
+
+
+
+</resources>

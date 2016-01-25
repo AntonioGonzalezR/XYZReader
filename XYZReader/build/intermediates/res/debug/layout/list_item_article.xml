@@ -1,0 +1,61 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/card_height"
+
+    android:layout_marginLeft="@dimen/card_item_horizontal_margin"
+    android:layout_marginRight="@dimen/card_item_horizontal_margin"
+    android:layout_marginTop="@dimen/card_item_vertical_margin"
+    android:layout_marginBottom="@dimen/card_item_vertical_margin"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardElevation="@dimen/card_elevation"
+    android:elevation="@dimen/card_elevation"
+
+    android:foreground="?selectableItemBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--suppress AndroidLintContentDescription   android:transitionName="@string/transition_photo"-->
+        <com.android.volley.toolbox.NetworkImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/photo_height"
+            android:scaleType="centerCrop"
+            android:background="@color/photo_placeholder" />
+
+
+        <TextView
+            android:id="@+id/article_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorPrimary"
+            android:ellipsize="end"
+            android:layout_marginLeft="@dimen/article_title_horizontal_margin"
+            android:layout_marginRight="@dimen/article_title_horizontal_margin"
+            android:layout_marginStart="@dimen/article_title_horizontal_margin"
+            android:layout_marginEnd="@dimen/article_title_horizontal_margin"
+            android:textSize="@dimen/article_title_text_size"
+            android:maxLines="3" />
+
+        <TextView
+            android:id="@+id/article_subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?android:textColorSecondary"
+            android:layout_marginLeft="@dimen/article_title_horizontal_margin"
+            android:layout_marginRight="@dimen/article_title_horizontal_margin"
+            android:layout_marginStart="@dimen/article_title_horizontal_margin"
+            android:layout_marginEnd="@dimen/article_title_horizontal_margin"
+            android:layout_marginTop="@dimen/article_title_vertical_margin"
+            android:maxLines="1"
+            android:textSize="@dimen/article_subtitle_text_size"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
+<!-- From: file:/Users/Antonio/AndroidStudioProjects/xyzreader/XYZReader/src/main/res/layout/list_item_article.xml -->

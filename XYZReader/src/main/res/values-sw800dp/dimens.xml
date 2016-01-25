@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- list -->
+    <dimen name="list_side_margin">64dp</dimen>
+    <dimen name="list_toolbar_side_margin">52dp</dimen> <!-- minus 64 - 12 -->
+    <integer name="list_column_count">4</integer>
+
+
+    <!-- detail -->
+    <dimen name="detail_title_text_size">28sp</dimen>
+    <dimen name="detail_sub_title_text_size">32sp</dimen>
+    <dimen name="detail_body_text_size">34sp</dimen>
+    <dimen name="detail_app_bar_layout_height">680dp</dimen>
+    <dimen name="detail_horizontal_margin">76dp</dimen>
+
+
+    <!-- list items-->
+    <dimen name="card_height">320dp</dimen>
+    <dimen name="article_title_text_size">20sp</dimen>
+    <dimen name="article_subtitle_text_size">16sp</dimen>
+    <dimen name="photo_height">180dp</dimen>
+    <dimen name="list_horizontal_margin">35dp</dimen>
+    <dimen name="app_bar_height">130dp</dimen>
+    <dimen name="image_logo_padding_left">130dp</dimen>
+    <dimen name="image_logo_padding_top">35dp</dimen>
+
+
+</resources>
